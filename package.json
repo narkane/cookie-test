@@ -20,8 +20,10 @@
   },
   "homepage": "https://github.com/narkane/cookie-test#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.4",
     "cookie-session": "^1.3.3",
     "cors": "^2.8.5",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "express-session": "^1.16.1"
   }
 }
