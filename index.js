@@ -4,7 +4,7 @@ var cors = require("cors");
 
 var app = express()
 
-app.use(cors));
+app.use(cors());
 
 app.set('trust proxy', 1) // trust first proxy
 
