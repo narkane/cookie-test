@@ -13,7 +13,7 @@ app.use(cookieSession({
   keys: ['key1', 'key2']
 }))
 
-app.get('/', function (req, res, next) {
+app.get('/login', function (req, res, next) {
   // Update views
   req.session.views = (req.session.views || 0) + 1
 
